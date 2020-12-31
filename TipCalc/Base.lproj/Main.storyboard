@@ -17,7 +17,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="siH-AS-fGN">
-                                <rect key="frame" x="24" y="191" width="367" height="386"/>
+                                <rect key="frame" x="24" y="182" width="367" height="386"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Bill Amount" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DEA-7n-jqJ">
@@ -84,12 +84,28 @@
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     </view>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="kissclipart-sakura-flower-png-clipart-cherry-blossom-clip-art-3f33dc7bb327042d" translatesAutoresizingMaskIntoConstraints="NO" id="cM4-ll-Jrj">
+                                        <rect key="frame" x="99" y="63" width="38" height="25"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="kissclipart-sakura-flower-png-clipart-cherry-blossom-clip-art-3f33dc7bb327042d" translatesAutoresizingMaskIntoConstraints="NO" id="hNp-Uz-E5q">
+                                        <rect key="frame" x="36" y="112" width="32" height="24"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="kissclipart-sakura-flower-png-clipart-cherry-blossom-clip-art-3f33dc7bb327042d" translatesAutoresizingMaskIntoConstraints="NO" id="HXL-eZ-v4Y">
+                                        <rect key="frame" x="57" y="284" width="31" height="26"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
                                 </subviews>
                                 <color key="backgroundColor" red="1" green="0.95973918772400435" blue="0.9380673477397935" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </view>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="Screen Shot 2020-12-31 at 3.42.47 PM" translatesAutoresizingMaskIntoConstraints="NO" id="ycM-Zf-oZp">
+                                <rect key="frame" x="353" y="110" width="38" height="72"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                        <color key="backgroundColor" systemColor="labelColor"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <gestureRecognizers/>
                         <connections>
                             <outletCollection property="gestureRecognizers" destination="nXv-F5-350" appends="YES" id="YQl-DE-aJC"/>
@@ -132,9 +148,8 @@
         </scene>
     </scenes>
     <resources>
-        <systemColor name="labelColor">
-            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
+        <image name="Screen Shot 2020-12-31 at 3.42.47 PM" width="122" height="180"/>
+        <image name="kissclipart-sakura-flower-png-clipart-cherry-blossom-clip-art-3f33dc7bb327042d" width="273" height="200"/>
         <systemColor name="systemOrangeColor">
             <color red="1" green="0.58431372549019611" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
